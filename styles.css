@@ -1,0 +1,245 @@
+body {
+  background-color: #716a91; }
+
+#odstep1 {
+  margin: 0;
+  margin-top: 20px;
+  position: absolute; }
+
+.btn {
+  max-width: 100px;
+  height: 30px; }
+
+.form-control {
+  max-width: 200px; }
+
+.klasa {
+  margin-left: 5%;
+  float: left; }
+
+.listaimion {
+  margin-bottom: -10px; }
+  .listaimion > li {
+    margin: 0;
+    margin-left: -25px;
+    padding: 0; }
+
+.wynikformularza {
+  margin-top: 60px; }
+
+#podmiana {
+  visibility: hidden;
+  margin-bottom: 20px; }
+
+#klik {
+  margin: 0;
+  padding: 0; }
+
+@media only screen and (min-width: 821px) {
+  #container {
+    margin: auto;
+    margin-top: 0px;
+    width: 70%;
+    min-width: 820px;
+    height: 100%; }
+  .header-main {
+    height: 150px;
+    width: 98%;
+    margin: 1%;
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: grey;
+    color: #000062;
+    font-size: 30px; }
+    .header-main > #centerek > p {
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transform: rotate(-30deg);
+      -moz-transform: rotate(-30deg); }
+  .pasek_boczny {
+    background: black;
+    color: white;
+    width: 23%;
+    height: 440px;
+    margin: 1%;
+    float: left; }
+    .pasek_boczny > nav > ul {
+      list-style: none;
+      text-align: center; }
+      .pasek_boczny > nav > ul > li {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -30px; }
+        .pasek_boczny > nav > ul > li > a {
+          text-decoration: none;
+          color: white; }
+        .pasek_boczny > nav > ul > li > a:hover {
+          color: grey; }
+  .col2 {
+    width: 73%;
+    margin: 1%;
+    height: 440px;
+    background: #6BC0FF; }
+    .col2 > .row > .formularz {
+      font-size: 24px; }
+      .col2 > .row > .formularz > label > p {
+        font-size: 24px; }
+    .col2 > .row > .wpisywanietekstu {
+      width: 100%; }
+      .col2 > .row > .wpisywanietekstu > #wpisztekst {
+        float: left; }
+    .col2 > .row > .buttonodw > #przycisk1 > #odstep {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      position: absolute;
+      z-index: 100; } }
+
+@media only screen and (min-width: 281px) and (max-width: 820px) {
+  #container {
+    margin: auto;
+    width: 90%;
+    margin-top: 0px;
+    height: 100%;
+    min-width: 100px; }
+  .header-main {
+    height: 150px;
+    width: 98%;
+    margin: 1%;
+    margin-top: 0px;
+    padding-top: 50px;
+    min-width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: grey;
+    color: #000062;
+    font-size: 30px; }
+    .header-main > #centerek > p {
+      letter-spacing: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-transform: rotate(-30deg);
+      -moz-transform: rotate(-30deg); }
+  .pasek_boczny {
+    background: black;
+    color: white;
+    width: 23%;
+    height: 440px;
+    margin: 1%;
+    float: left; }
+    .pasek_boczny > nav > ul {
+      text-align: center;
+      list-style: none; }
+      .pasek_boczny > nav > ul > li {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        margin-left: -30px; }
+        .pasek_boczny > nav > ul > li > a {
+          text-decoration: none;
+          color: white; }
+        .pasek_boczny > nav > ul > li > a:hover {
+          color: grey; }
+  .col2 {
+    width: 73%;
+    margin: 1%;
+    height: 440px;
+    background: #6BC0FF; }
+    .col2 > .row > .formularz {
+      font-size: 24px; }
+      .col2 > .row > .formularz > label > p {
+        font-size: 24px; }
+    .col2 > .row > .wpisywanietekstu {
+      width: 100%; }
+      .col2 > .row > .wpisywanietekstu > #wpisztekst {
+        float: left; }
+    .col2 > .row > .buttonodw > #przycisk1 > #odstep {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      position: absolute;
+      z-index: 100; } }
+
+@media only screen and (max-width: 280px) {
+  #container {
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    max-height: 400px; }
+  .header-main {
+    height: 105px;
+    width: 92%;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: grey;
+    font-size: 20px; }
+    .header-main > #centerek > p {
+      color: #000062;
+      letter-spacing: 3px;
+      margin: auto;
+      margin-top: 35px;
+      display: block;
+      justify-content: center;
+      -webkit-transform: rotate(-30deg);
+      -moz-transform: rotate(-30deg); }
+  .pasek_boczny {
+    background: black;
+    color: white;
+    width: 92%;
+    margin: 4%; }
+    .pasek_boczny > nav > ul {
+      margin: 0;
+      text-align: center;
+      list-style: none; }
+      .pasek_boczny > nav > ul > li {
+        display: block;
+        list-style: none;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-left: -45px; }
+        .pasek_boczny > nav > ul > li > a {
+          text-decoration: none;
+          color: white; }
+        .pasek_boczny > nav > ul > li > a:hover {
+          color: grey; }
+    .pasek_boczny .pozycjadiva {
+      min-width: 70px; }
+  .col2 {
+    width: 92%;
+    margin: 4%;
+    margin-top: 0;
+    height: 440px;
+    background: #6BC0FF; }
+    .col2 > .row > .wpis {
+      text-align: center; }
+    .col2 > .row > .formularz {
+      margin-left: -5px;
+      text-align: center; }
+      .col2 > .row > .formularz > label > p {
+        font-size: 24px; }
+    .col2 > .row > .wpisywanietekstu {
+      width: 90%; }
+    .col2 > .row > .buttonodw > #przycisk1 > #odstep {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      position: absolute;
+      z-index: 100; } }
+
+@media only screen and (max-width: 280px) and (max-width: 253px) {
+  .header-main > #centerek > p {
+    color: #000062;
+    letter-spacing: 3px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    justify-content: center;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg); } }

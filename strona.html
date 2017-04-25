@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+#tlo {
+   height:300px;
+   width:300px;
+   background-image:url('zdj.png');
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+</style>
+<script>
+function moveBg(side){
+   obj = document.getElementById("tlo");
+   if(side=="lewo"){
+      obj.style.backgroundPosition = -50+"px 0px ";
+   }else if(side=="prawo"){
+      obj.style.backgroundPosition = 0+"px 0px ";
+   }
+}
+</script>
+</head>
+<body>
+    <div id="tlo">
+</div>
+<a href="onet.pl">afasdfasasasdfadsfasdfasd</a>
+<input type="button" name="but" onclick="moveBg('lewo')" value="<<" />
+<input type="button" name="but" onclick="moveBg('prawo')" value=">>" />
+</body>
+</html>
+
